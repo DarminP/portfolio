@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/228a199518.js" crossorigin="anonymous"></script>
+
+    <!--Component-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    
+
+    <!-- Stylesheets -->
+
+    <link rel="stylesheet" href="css/grid.css ">
+    <link rel="stylesheet" href="css/menu.css ">
+    <link rel="stylesheet" href="css/freelancer001.css ">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
+    <title>Darmin's Designs</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="row no-gap">
+            <div class="col6 logo">
+                <h1 class="brand">
+                    <img class="logo" src="images/logo.png" alt="logo">
+                </h1>
+            </div>
+            <div class="col6">
+                <div class="menu-toggle">
+                    <i class="fas fa-minus"></i>    
+                    <i class="fas fa-minus"></i>    
+                    <i class="fas fa-minus"></i>    
+                </div>
+                <nav class="menu" id="primary-menu">
+                    <ul class="menu-nav">
+                        <li class="menu-nav-item"><a href="#about">About</a></li>
+                        <li class="menu-nav-item"><a href="#skills">Skills</a></li>
+                        <li class="menu-nav-item"><a href="#portfolio">Portfolio</a></li>
+                        <li class="menu-nav-item"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col6">
+                    <img class="img-rounded" id="avatar" src="images/myself.jpg" alt="picture of Darmin">
+                </div>
+                <div class="col6">
+                    <header class="section-header">
+                        <h1 class="section-title site-title text-left">Hi, I'm Darmin</h1>
+                        <p class="lead">Welcome to my portfolio page. I am a web developer and designer. I have studied Digital Media at University West in Trollhättan (Sweden) with a focus on web development.</p>
+                        <p class="lead">I learned also a lot about film production such as editing, scriptwriting, audio-editing and offcorse storyboarding</p>
+                        <p class="lead">I am a very creative person,something that I often use in my projects. I love to learn new stuff and broaden my horizons.</p>
+                        <a class="btn btn-primary" href="#contact">Contact me</a>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col12">
+                    <header class="section-header">
+                        <h1 class="section-title">My Skills</h1>
+                        <p class="lead">Here are some of my skills!</p>
+                    </header>
+                </div>
+            </div>
+            <div class="row features-list">
+                <div class="col4 feature-item text-center">
+                    <i class="fas fa-bezier-curve feature-icon"></i>
+                    <h3 class="feature-title">Web Development</h3>
+                    <p class="feature-description">I'm skilled frontend developer (HTML, CSS and JavaScript) and currently I'm trying to learn some backand (PHP). 
+                        I always strive to use the letast tolls and frameworks when I code websites. </p>
+                </div>
+                <div class="col4 feature-item text-center">
+                    <i class="fas fa-paint-brush feature-icon"></i>
+                    <h3 class="feature-title">Art</h3>
+                    <p class="feature-description">In high school I studied Arts Progamme with major in Design. Over time my focus turned towards Digital Art where I use drawing pad and various digital tools for my creations.</p>
+                </div>
+                <div class="col4 feature-item text-center">
+                    <i class="fas fa-vector-square feature-icon"></i>
+                    <h3 class="feature-title">Design</h3>
+                    <p class="feature-description"> A part of my education at University West was to learn about design such as image processing, illustrations, Logo Development, UX / UI design, etc. Tools I often use are Photoshop, Illustrator and InDesign.</p>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <section class="section" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col12">
+                    <header class="section-header">
+                        <h1 class="section-title" id="portfolio-section-title">My Portfolio</h1>
+                        <p class="lead text-center" id="portfolio-text">
+                            In addition to my portfolio page that I designed and coded myself, you can check out some of my work in my portfolio gallery.</p>
+                    </header>
+                </div>
+            </div>
+                <div class="row no-gutter portfolio">
+
+                    <div class="col3 portfolio-item">
+                            <a href="images/Portfolio/001.jpg" data-lightbox="mygallery" data-title="Movement"> <img src="images/Portfolio/001-small.jpg"></a>
+                            <h3 class="img-text">Movement</h3>
+                    </div>
+                        
+                        
+                    <div class="col3 portfolio-item">
+                           <a href="images/Portfolio/002.png"data-lightbox="mygallery" data-title="My PLN/PLE" >  <img src="images/Portfolio/002-small.png"></a>
+                            <h3 class="img-text">My PLN/PLE</h3>
+                    </div>
+
+                    <div class="col3 portfolio-item">
+                            <a href="images/Portfolio/003.jpg" data-lightbox="mygallery" data-title="Human Anatomy"> <img src="images/Portfolio/003-small.jpg"></a>
+                            <h3 class="img-text">Human Anatomy</h3>
+                    </div>
+
+                    <div class="col3 portfolio-item">
+                        <a href="images/Portfolio/004.jpg" data-lightbox="mygallery" data-title="Black and White"> <img src="images/Portfolio/004-small.jpg"></a>
+                        <h3 class="img-text">Blac And White</h3>
+                    </div>   
+                </div> 
+                
+                <div class="row no-gutter portfolio" id="second-row"><!--starting second row in portfolio-->
+                        <div class="col4 portfolio-item">
+
+                                <a href="images/Portfolio/005.png" data-lightbox="mygallery" data-title="First idea for my webpage"> <img class="img-smal" src="images/Portfolio/005-small.png" ></a>
+                                <h3 class="img-text">First idea fo my webpage</h3>
+                            </div>  
+                        
+                            <div class="col4 portfolio-item">                               
+                                     <a href="images/Portfolio/006.png" data-lightbox="mygallery" data-title="A Study in Shades"> <img src="images/Portfolio/006-small.png" class="img-smal"></a>
+                                    <h3 class="img-text">A Study in Shades</h3>
+                                </div>  
+                                    <div class="col4 portfolio-item">
+                                            <a href="images/Portfolio/008.png" data-lightbox="mygallery" data-title="Deadpool nr2"> <img src="images/Portfolio/008-small.png"></a>
+                                            <h3 class="img-text">Deadpool nr2</h3>
+                                    </div>  
+                </div> <!--closing second portfolio row-->     
+            </div> <!--closing row-->  
+        </div><!--closing container porfolio-->  
+    </div><!--Finnish second portfolio row-->  
+</div><!---->  
+</section><!--closing section portfolio-->  
+
+<section class="section" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col6">
+                <header class="section-header">
+                    <h1 class="section-title text-left">Hire Me</h1>
+                    <p class="lead text-left">I look forward to work for you and help your project reach new heights!</p>
+                </header>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><i class="fas fa-map-marker"></i>Hjortmossegatan 103, Trollhättan</li>
+                    <li class="list-inline-item"><i class="fas fa-phone"></i>+46 769255239</li>
+                    <li class="list-inline-item"><i class="fas fa-envelope"></i>d.poturovic@gmail.com</li>
+                </ul>
+            </div>
+            <div class="col6">
+                <form class="dark contact-form" action="process.php" method="post">
+                    <h3 class="form-title">Contact Me</h3>
+                    <div class="form-field">
+                        <input class="text" type="text" id="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-field">
+                        <input class="text email" id="email" type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-field">
+                        <textarea class="textarea" id="message" name="message" placeholder="Tell me about your project" required></textarea>
+                    </div>
+                    <div class="form-field" style="display: none;">
+                        <input type="hidden" id="url" value="testing" name="url" placeholder="URL">
+                    </div>
+                    <div class="btn btn-submit">Send Mail</div>
+                </form>
+                <div class="status-messages" style="display:none; background-color: rgba(255, 255,255, 0.1); color: #999; font-size: 24px; text-align: center; border: 2px solid green;">e-mail sent successfully!</div>
+                <div class="status-messages-fail" style="display:none; background-color: rgba(255, 255,255, 0.1); color: #999; font-size: 24px; text-align: center; border: 2px solid red;">e-mail failed!</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col12 text-center">
+                Copyright &copy; Darmin Poturovic. All rights reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+                    
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js/freelancer001.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+
+
+
+</body>
+</html>
+                    
+                     
+
+                    
+
+                    
+
+                    
+
+                   
+
+                    
+                
+
+
